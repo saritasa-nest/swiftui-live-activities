@@ -9,6 +9,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Setup](#setup)
 - [Tech/framework used](#tech/framework-used)
 - [Features](#features)
 
@@ -18,6 +19,20 @@
 ## Introduction
 
 This app is one of <a href="https://www.saritasa.com/">Saritasa's</a> internal products to help developers learn to use LiveActivitiies, SwiftData, and UserNotifications using a simple ToDo app.
+
+## Setup
+
+This project does not include the Xcconfigs folder or any .xcconfig files in the repository for security reasons (e.g., avoiding exposure of bundle identifiers, signing settings, and private configuration values).
+Before building the project, you must create and provide your own Xcode configuration files.
+To do so, follow these steps:
+- Create a Xcconfigs folder in WidgetToDo/WidgetToDo
+- Inside Xcconfigs, add two files: Debug.xcconfig and Release.xcconfig
+- Each file should contain your local build settings. Example: `PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.WidgetToDo.dev`
+- Link the .xcconfig files in Xcode:
+    - In Xcode open the project settings
+    - Select your project → Build Settings
+    - Search for "Configurations" or "Build Settings File"
+    - Assign each build configuration to the matching .xcconfig file
 
 ## Tech/framework used
 Built with:
