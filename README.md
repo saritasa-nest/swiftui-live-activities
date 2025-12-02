@@ -1,4 +1,4 @@
-<h1 align="center"> SaritasaTest </h1> <br>
+<h1 align="center"> WidgetToDo </h1> <br>
 
 <p align="center">
   To do app with Live Activities and custom Notifications!
