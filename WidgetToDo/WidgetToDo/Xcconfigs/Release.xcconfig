@@ -1,0 +1,4 @@
+// This is a configuration file
+
+BUNDLE_ID = com.saritasa.WidgetToDoRelease
+BUNDLE_ID_EXTENSION = com.saritasa.WidgetToDoRelease.TodoList
