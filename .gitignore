@@ -8,7 +8,8 @@ Swift.gitignore
 xcuserdata/
 
 ## XC Config files
-WidgetToDo/WidgetToDo/Xcconfigs/*.xcconfig
+# Ignore only private files
+**/Xcconfigs/Local*.xcconfig
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint

@@ -1,0 +1,10 @@
+// This file contains safe, non-sensitive default build settings.
+// The real bundle identifier and any private configuration values
+// must be defined in a local override file that is ignored by Git.
+//
+// Do NOT put the real production bundle ID in this file.
+//
+
+DEVELOPMENT_TEAM = 6H763A2399
+BUNDLE_ID = com.placeholder.app
+BUNDLE_ID_EXTENSION = com.placeholder.app.todoList
