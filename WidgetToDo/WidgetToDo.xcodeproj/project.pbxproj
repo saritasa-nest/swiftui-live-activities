@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 71;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -150,7 +150,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7C0185C42EDF7FD0005850CC /* Config */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Config; sourceTree = "<group>"; };
 		7C1A0B392CE4FE1400027867 /* Notifications */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Notifications; sourceTree = "<group>"; };
 		7C1A0B3A2CE4FE1900027867 /* LiveActivity */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = LiveActivity; sourceTree = "<group>"; };
 		7C37739D2D722C1800070AB9 /* SiriShortcuts */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SiriShortcuts; sourceTree = "<group>"; };
@@ -213,7 +212,6 @@
 		7C7E0C012C4ACA190093D05C /* WidgetToDo */ = {
 			isa = PBXGroup;
 			children = (
-				7C0185C42EDF7FD0005850CC /* Config */,
 				7CE3D3462C4B0421009DE92C /* Extensions */,
 				7CE3D33A2C4AF6B7009DE92C /* Utils */,
 				7C7E0C4A2C4AEE6B0093D05C /* WidgetToDo.entitlements */,
@@ -370,7 +368,6 @@
 				7C7E0C442C4AEC8F0093D05C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7C0185C42EDF7FD0005850CC /* Config */,
 				7C1A0B392CE4FE1400027867 /* Notifications */,
 				7C1A0B3A2CE4FE1900027867 /* LiveActivity */,
 				7C37739D2D722C1800070AB9 /* SiriShortcuts */,
@@ -537,8 +534,6 @@
 /* Begin XCBuildConfiguration section */
 		7C7E0C0B2C4ACA1B0093D05C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 7C0185C42EDF7FD0005850CC /* Config */;
-			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -603,8 +598,6 @@
 		};
 		7C7E0C0C2C4ACA1B0093D05C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 7C0185C42EDF7FD0005850CC /* Config */;
-			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -662,8 +655,6 @@
 		};
 		7C7E0C0E2C4ACA1B0093D05C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 7C0185C42EDF7FD0005850CC /* Config */;
-			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -697,8 +688,6 @@
 		};
 		7C7E0C0F2C4ACA1B0093D05C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 7C0185C42EDF7FD0005850CC /* Config */;
-			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -732,8 +721,6 @@
 		};
 		7C7E0C472C4AEC8F0093D05C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 7C0185C42EDF7FD0005850CC /* Config */;
-			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -763,8 +750,6 @@
 		};
 		7C7E0C482C4AEC8F0093D05C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 7C0185C42EDF7FD0005850CC /* Config */;
-			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
